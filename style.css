@@ -145,7 +145,7 @@ button:disabled {
     background-color: gray;
 }
 
-/* Responsividade */
+/*A responsividade de telas*/
 @media screen and (max-width: 1250px) {
     .container {
         flex-direction: column;
