@@ -211,14 +211,13 @@ button:disabled {
 }
 
 @media screen and (max-width: 768px) {
-
   .container {
     width: 100%;
     padding: 2rem;
     display: flex;
     text-align: center;
   }
-  
+
   .container__informacoes {
     align-items: center;
     width: 100%;
@@ -231,28 +230,27 @@ button:disabled {
     padding: 2rem;
     width: 100%;
   }
-  
+
   .container__input {
     width: 100px;
     height: 60px;
     font-size: 20px;
   }
-  
+
   .container__botao,
   .container__botao-desabilitado {
     font-size: 20px;
     padding: 12px 20px;
   }
-  
+
   h1 {
     font-size: 40px;
-    
   }
-  
+
   .texto__paragrafo {
     font-size: 20px;
   }
-  
+
   .texto__resultado {
     height: 20rem;
     width: 20rem;
@@ -267,6 +265,13 @@ button:disabled {
 }
 
 @media screen and (max-width: 480px) {
+  
+  .container {
+    peding: 1em;
+    margin-top: 4em;
+    overflow: hidden;
+  }
+
   .container__texto {
     display: flex;
     align-items: center;
@@ -287,12 +292,6 @@ button:disabled {
     width: 100%;
   }
 
-  .container {
-    width: 100%;
-    peding: 1em;
-    margin-top: 4em;
-  }
-
   h1 {
     font-size: 32px;
   }
@@ -306,7 +305,7 @@ button:disabled {
     height: 30px;
     font-size: 18px;
   }
-
+ 
   .container__campo {
     flex-direction: column;
   }
