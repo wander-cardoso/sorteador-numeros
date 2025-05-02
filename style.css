@@ -204,6 +204,7 @@ button:disabled {
     .container {
         width: 100%;
         padding: 1.5rem;
+        margin-top: 2rem;
     }
 
     h1 {
