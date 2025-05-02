@@ -29,7 +29,7 @@ body::before {
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     min-height: 50vh;
     display: flex;
     align-items: center;
@@ -61,6 +61,7 @@ body::before {
     margin: 12px 0;
     display: flex;
     flex-direction: column;
+    
 }
 
 .container__texto-azul {
@@ -133,6 +134,17 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
+}
+
+.texto__resultado{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-break: break-all;
 }
 
 .container__imagem-pessoa {
@@ -190,21 +202,21 @@ button:disabled {
 
 @media screen and (max-width: 480px) {
     .container {
-        width: 90%;
+        width: 100%;
         padding: 1.5rem;
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .texto__paragrafo {
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .container__input {
-        width: 80px;
-        height: 50px;
+        width: 120px;
+        height: 30px;
         font-size: 18px;
     }
 

@@ -23,7 +23,7 @@ function sortear(){
             sorteados.push(numero);
     }
     let resultado = document.getElementById('resultado');
-    resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados}</label>`
+    resultado.innerHTML = `<label class="texto__resultado">Números sorteados: ${sorteados}</label>`
 
     alterarStatusBotao();
 }
